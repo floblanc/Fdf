@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: maginist <maginist@student.42.fr>          +#+  +:+       +#+        */
+/*   By: floblanc <floblanc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/21 10:11:20 by maginist          #+#    #+#             */
-/*   Updated: 2019/10/07 11:35:11 by maginist         ###   ########.fr       */
+/*   Updated: 2019/10/24 15:20:28 by floblanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
 # include "../libprintf/include/libprintf.h"
-# include <mlx.h>
+# include "../mlx/mlx.h"
 # include <fcntl.h>
 # include <stdlib.h>
 # include <math.h>

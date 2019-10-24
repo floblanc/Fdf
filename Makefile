@@ -6,7 +6,7 @@
 #    By: floblanc <floblanc@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/21 10:08:34 by maginist          #+#    #+#              #
-#    Updated: 2019/10/05 14:42:44 by floblanc         ###   ########.fr        #
+#    Updated: 2019/10/24 15:19:47 by floblanc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,8 @@ LIBFT				=	./libprintf/
 LIBFTA				=	libprintf.a
 LIBFTINCLUDES		=	./libprintf/include/
 
-FDF_FLAGS = -I /usr/local/include -L /usr/local/lib/ -lmlx -framework OpenGL -framework AppKit
+#FDF_FLAGS = -I /usr/local/include -L /usr/local/lib/ -lmlx -framework OpenGL -framework AppKit
+FDF_FLAGS = -I /usr/local/include -L /usr/local/lib/ mlx/libmlx.a -framework OpenGL -framework AppKit
 
 CC = gcc
 
